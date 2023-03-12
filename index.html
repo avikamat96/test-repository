@@ -6,6 +6,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            overflow: hidden;
+            background: #005C97;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            font-family: 'Merriweather Sans', sans-serif;
+            color: #4EFF9A;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 98vw;
+            flex-direction: column;
+            font-size: 4em;
+        }
+    </style>
 </head>
 <body>
 
@@ -48,7 +70,9 @@
         }
     
     </script>
-    <div>Time left for my babu's birthday</div>
-    <div id="countdown"></div>
+    <section class="container">
+        <div>Time left for my babu's birthday</div>
+        <div id="countdown"></div>
+    </section>
 </body>
 </html>
